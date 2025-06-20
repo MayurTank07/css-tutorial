@@ -1,0 +1,35 @@
+
+Colors --> 
+
+- Color property is used to change font color.
+- it has multiple values
+
+color values -->
+
+1. color name --> red, green, blue, orange
+
+2. long # values (6 characters) - HEXADECIMAL VALUES
+            --> #05 3e da 
+            -->  r  g  b
+
+3. short # value (3 character) - SHORT HEXADECIMAL VALUES
+            --> #0 5 3
+            -->  r g b
+
+4. rgb value --> red green blue value
+             --> rgb value range 0 to 255
+
+5. rgba value --> red green blue alpha 
+              --> alpha is use for trasparency
+              --> alpha value range is 0.0 to 1.0
+
+6. hsl value --> hue saturation lightness
+             --> hue --> 0 to 360
+             --> 0 represents red, 120 represents green, 240 represents blue.
+
+             --> saturation value is in percentage 
+             --> lightness value is in percentage 
+            
+7. hsla value --> hue saturation lightness alpha
+              --> alpha is use for trasparency
+              --> alpha value range is 0.0 to 1.0

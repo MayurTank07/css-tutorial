@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-zoom {
+            overflow: hidden;
+            background-color: aqua;
+        }
+
+        .image-zoom img {
+            transition: transform 0.3s ease;
+        }
+
+        .image-zoom:hover img {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-zoom">
+        <img  src="https://i.pinimg.com/736x/e3/ea/cd/e3eacd9e3878ea96db8b104512ebe02b.jpg" alt="Image" height="400px" width="200px" >
+    </div>
+</body>
+
+</html>
